@@ -1,0 +1,45 @@
+.login{
+   height: 62vh;
+   display: grid;
+   place-items: center;
+   margin-bottom: 3rem;
+}
+
+.login__container > img{
+    object-fit: contain;
+    width: 300px;
+    margin-bottom: -20px;
+}
+
+.login__container > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__container > form > input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.singin__btn{
+    background-color: #0072b1;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+
+}
+
+.login__container > p{
+    text-align: center;
+    font-size: 12px;
+}
+.login__register{
+    margin-left: 5px;
+    color: #0072b1;
+    font-weight: bold;
+    cursor: pointer;
+
+}
